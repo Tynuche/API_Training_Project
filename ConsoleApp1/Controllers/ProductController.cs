@@ -24,5 +24,5 @@ namespace ConsoleApp1.Controllers
             return Ok(products);
         }
     }
-
+    //Don't forget to oush to github when you are done
 }
