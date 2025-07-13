@@ -35,5 +35,5 @@ namespace ConsoleApp1.Controllers
             return Ok(name);
         }
     }
-    //Don't forget to oush to github when you are done
+    //After product conroller completion create a new controller named AuthorController
 }
