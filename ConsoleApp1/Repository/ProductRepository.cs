@@ -16,5 +16,10 @@ namespace ConsoleApp1.Repository
         {
             return products;
         }
+
+        public string GetName()
+        {
+           return "Name from ProductRepository";
+        }
     }
 }

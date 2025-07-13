@@ -11,6 +11,8 @@ namespace ConsoleApp1
             services.AddTransient<CustomMiddleware1>();
 
             services.AddSingleton<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductRepository, TestRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
